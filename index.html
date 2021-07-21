@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MangaT</title>
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.2-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://i.pinimg.com/564x/d6/8d/fe/d68dfe428913ff32b2bdd21821b56b2f.jpg" />
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__navbar grid wide">
+            <label for="nav__moblie-input" class="nav-bar__menu">
+                <i class="menu-bar fas fa-bars"></i>
+            </label>
+            <input type="checkbox" class="nav__input" name="" id="nav__moblie-input">
+            <label for="nav__moblie-input" class="nav__overlay">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                        <a href="">Updates</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="">Features</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="">Manga List</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="">Favorites</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="">About us</a>
+                    </li>
+                </ul>
+
+                <div class="nav__menu-separator"></div>
+                <div class="leanguages">
+                    <div class="header__leanguages">Selected languages</div>
+                    <div class="header__selected">
+                        <input type="radio" name="VN" id="VN">
+                        <label for="VN">Viet Nam</label>
+
+            <input type="radio" name="EN" id="EN">
+            <label for="EN">ENGLISH</label>
+        </div>
+        </div>
+        </label>
+        <div class="header__logo">
+            <img class="header__logo-img" src="./assets/img/web__logo.png" alt="">
+        </div>
+        <div class="header__nav-text">
+            <ul class="header__nav-list">
+                <li class="header__nav-item">
+                    <a href="">Updates</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="">Features</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="">Manga List</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="">Favorites</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="">About us</a>
+                </li>
+            </ul>
+        </div>
+        <form class="header__search">
+            <input class="header__search-input" type="text" placeholder="Search by title or author">
+            <a href="">
+                <i class="fas fa-search"></i>
+            </a>
+        </form>
+        </div>
+
+        <div class="header__select-leanguages"></div>
+        <div class="header__navbar-special">
+            <div class="header__navbar-special-item">
+                <img class="header__navbar-special-img" src="./assets/img/festival1.jpeg" alt="">
+            </div>
+
+            <div class="header__navbar-special-item">
+                <img class="header__navbar-special-img" src="./assets/img/festival2.jpeg" alt="">
+            </div>
+
+            <div class="header__navbar-special-item">
+                <img class="header__navbar-special-img" src="./assets/img/festival1.jpeg" alt="">
+            </div>
+        </div>
+    </header>
+
+    <section class="section__content">
+        <div class="grid wide full-width">
+            <div class="row f-direction full-width reset-margin ">
+                <div class="col l-10 full-width unset">
+                    <div class="content__list-manga full-width">
+                        <div class="content__info-update full-width">
+                            <div class="content__label">Daily updates</div>
+                            <a href="#" class="btn__label">All updates
+                                <i class="icon-nav fas fa-chevron-right"></i>
+                            </a>
+                        </div>
+                        <div class="row full-width reset-margin">
+                            <div class="col mrb-8px l-2-4 m-2-4 c-6 ">
+                                <a class="content__item-manga" href="">
+                                    <div class="content__img" style="background-image: url('./assets/img/Jujutsu.jpeg')">
+                                    </div>
+
+                                    <div class="content__manga__info">
+                                        <p class="content__name__manga">Nisekoi: False Love</p>
+                                        <p class="content__author__manga">Naoshi Komi</p>
+                                    </div>
+                                </a>
+                                <div class="content__chap-detail">
+                                    <div class="chap__lasted">
+                                        <p class="new-chap">#121</p>
+                                        <p class="stauts__chap">today</p>
+                                    </div>
+                                    <p class="name__chap">chapter 121: Little brother</p>
+                                </div>
+                            </div>
+
+
+                            <div class="col mrb-8px l-2-4 m-2-4 c-6 ">
+                                <a class="content__item-manga" href="">
+                                    <div class="content__img" style="background-image: url('./assets/img/onepiece.jpeg')">
+                                    </div>
+
+                                    <div class="content__manga__info">
+                                        <p class="content__name__manga">Nisekoi: False Love</p>
+                                        <p class="content__author__manga">Naoshi Komi</p>
+                                    </div>
+                                </a>
+                                <div class="content__chap-detail">
+                                    <div class="chap__lasted">
+                                        <p class="new-chap">#121</p>
+                                        <p class="stauts__chap">today</p>
+                                    </div>
+                                    <p class="name__chap">chapter 121: Little brother</p>
+                                </div>
+                            </div>
+
+                            <div class="col mrb-8px l-2-4 m-2-4 c-6 ">
+                                <a class="content__item-manga" href="">
+                                    <div class="content__img" style="background-image: url('./assets/img/samurai.jpeg')">
+                                    </div>
+
+                                    <div class="content__manga__info">
+                                        <p class="content__name__manga">Nisekoi: False Love</p>
+                                        <p class="content__author__manga">Naoshi Komi</p>
+                                    </div>
+                                </a>
+                                <div class="content__chap-detail">
+                                    <div class="chap__lasted">
+                                        <p class="new-chap">#121</p>
+                                        <p class="stauts__chap">today</p>
+                                    </div>
+                                    <p class="name__chap">chapter 121: Little brother</p>
+                                </div>
+                            </div>
+
+
+                            <div class="col mrb-8px l-2-4 m-2-4 c-6 ">
+                                <a class="content__item-manga" href="">
+                                    <div class="content__img" style="background-image: url('./assets/img/hero.jpeg')">
+                                    </div>
+
+                                    <div class="content__manga__info">
+                                        <p class="content__name__manga">Nisekoi: False Love</p>
+                                        <p class="content__author__manga">Naoshi Komi</p>
+                                    </div>
+                                </a>
+                                <div class="content__chap-detail">
+                                    <div class="chap__lasted">
+                                        <p class="new-chap">#121</p>
+                                        <p class="stauts__chap">today</p>
+                                    </div>
+                                    <p class="name__chap">chapter 121: Little brother</p>
+                                </div>
+                            </div>
+
+                            <div class="col mrb-8px l-2-4 m-2-4 c-6 ">
+                                <a class="content__item-manga" href="">
+                                    <div class="content__img" style="background-image: url('./assets/img/samurai.jpeg')">
+                                    </div>
+
+                                    <div class="content__manga__info">
+                                        <p class="content__name__manga">Nisekoi: False Love</p>
+                                        <p class="content__author__manga">Naoshi Komi</p>
+                                    </div>
+                                </a>
+                                <div class="content__chap-detail">
+                                    <div class="chap__lasted">
+                                        <p class="new-chap">#121</p>
+                                        <p class="stauts__chap">today</p>
+                                    </div>
+                                    <p class="name__chap">chapter 121: Little brother</p>
+                                </div>
+                            </div>
+
+
+                            <div class="col mrb-8px l-2-4 m-2-4 c-6 ">
+                                <a class="content__item-manga" href="">
+                                    <div class="content__img" style="background-image: url('./assets/img/Jujutsu.jpeg')">
+                                    </div>
+
+                                    <div class="content__manga__info">
+                                        <p class="content__name__manga">Nisekoi: False Love</p>
+                                        <p class="content__author__manga">Naoshi Komi</p>
+                                    </div>
+                                </a>
+                                <div class="content__chap-detail">
+                                    <div class="chap__lasted">
+                                        <p class="new-chap">#121</p>
+                                        <p class="stauts__chap">today</p>
+                                    </div>
+                                    <p class="name__chap">chapter 121: Little brother</p>
+                                </div>
+                            </div>
+
+
+                            <div class="col mrb-8px l-2-4 m-2-4 c-6 ">
+                                <a class="content__item-manga" href="">
+                                    <div class="content__img" style="background-image: url('./assets/img/onepiece.jpeg')">
+                                    </div>
+
+                                    <div class="content__manga__info">
+                                        <p class="content__name__manga">Nisekoi: False Love</p>
+                                        <p class="content__author__manga">Naoshi Komi</p>
+                                    </div>
+                                </a>
+                                <div class="content__chap-detail">
+                                    <div class="chap__lasted">
+                                        <p class="new-chap">#121</p>
+                                        <p class="stauts__chap">today</p>
+                                    </div>
+                                    <p class="name__chap">chapter 121: Little brother</p>
+                                </div>
+                            </div>
+
+                            <div class="col mrb-8px l-2-4 m-2-4 c-6 ">
+                                <a class="content__item-manga" href="">
+                                    <div class="content__img" style="background-image: url('./assets/img/samurai.jpeg')">
+                                    </div>
+
+                                    <div class="content__manga__info">
+                                        <p class="content__name__manga">Nisekoi: False Love</p>
+                                        <p class="content__author__manga">Naoshi Komi</p>
+                                    </div>
+                                </a>
+                                <div class="content__chap-detail">
+                                    <div class="chap__lasted">
+                                        <p class="new-chap">#121</p>
+                                        <p class="stauts__chap">today</p>
+                                    </div>
+                                    <p class="name__chap">chapter 121: Little brother</p>
+                                </div>
+                            </div>
+
+
+                            <div class="col mrb-8px l-2-4 m-2-4 c-6 ">
+                                <a class="content__item-manga" href="">
+                                    <div class="content__img" style="background-image: url('./assets/img/hero.jpeg')">
+                                    </div>
+
+                                    <div class="content__manga__info">
+                                        <p class="content__name__manga">Nisekoi: False Love</p>
+                                        <p class="content__author__manga">Naoshi Komi</p>
+                                    </div>
+                                </a>
+                                <div class="content__chap-detail">
+                                    <div class="chap__lasted">
+                                        <p class="new-chap">#121</p>
+                                        <p class="stauts__chap">today</p>
+                                    </div>
+                                    <p class="name__chap">chapter 121: Little brother</p>
+                                </div>
+                            </div>
+
+                            <div class="col mrb-8px l-2-4 m-2-4 c-6 ">
+                                <a class="content__item-manga" href="">
+                                    <div class="content__img" style="background-image: url('./assets/img/samurai.jpeg')">
+                                    </div>
+
+                                    <div class="content__manga__info">
+                                        <p class="content__name__manga">Nisekoi: False Love</p>
+                                        <p class="content__author__manga">Naoshi Komi</p>
+                                    </div>
+                                </a>
+                                <div class="content__chap-detail">
+                                    <div class="chap__lasted">
+                                        <p class="new-chap">#121</p>
+                                        <p class="stauts__chap">today</p>
+                                    </div>
+                                    <p class="name__chap">chapter 121: Little brother</p>
+                                </div>
+                            </div>
+
+                            <div class="col mrb-8px l-2-4 m-2-4 c-6 ">
+                                <a class="content__item-manga" href="">
+                                    <div class="content__img" style="background-image: url('./assets/img/Jujutsu.jpeg')">
+                                    </div>
+
+                                    <div class="content__manga__info">
+                                        <p class="content__name__manga">Nisekoi: False Love</p>
+                                        <p class="content__author__manga">Naoshi Komi</p>
+                                    </div>
+                                </a>
+                                <div class="content__chap-detail">
+                                    <div class="chap__lasted">
+                                        <p class="new-chap">#121</p>
+                                        <p class="stauts__chap">today</p>
+                                    </div>
+                                    <p class="name__chap">chapter 121: Little brother</p>
+                                </div>
+                            </div>
+
+
+                            <div class="col mrb-8px l-2-4 m-2-4 c-6 ">
+                                <a class="content__item-manga" href="">
+                                    <div class="content__img" style="background-image: url('./assets/img/onepiece.jpeg')">
+                                    </div>
+
+                                    <div class="content__manga__info">
+                                        <p class="content__name__manga">Nisekoi: False Love</p>
+                                        <p class="content__author__manga">Naoshi Komi</p>
+                                    </div>
+                                </a>
+                                <div class="content__chap-detail">
+                                    <div class="chap__lasted">
+                                        <p class="new-chap">#121</p>
+                                        <p class="stauts__chap">today</p>
+                                    </div>
+                                    <p class="name__chap">chapter 121: Little brother</p>
+                                </div>
+                            </div>
+
+                            <div class="col mrb-8px l-2-4 m-2-4 c-6 ">
+                                <a class="content__item-manga" href="">
+                                    <div class="content__img" style="background-image: url('./assets/img/samurai.jpeg')">
+                                    </div>
+
+                                    <div class="content__manga__info">
+                                        <p class="content__name__manga">Nisekoi: False Love</p>
+                                        <p class="content__author__manga">Naoshi Komi</p>
+                                    </div>
+                                </a>
+                                <div class="content__chap-detail">
+                                    <div class="chap__lasted">
+                                        <p class="new-chap">#121</p>
+                                        <p class="stauts__chap">today</p>
+                                    </div>
+                                    <p class="name__chap">chapter 121: Little brother</p>
+                                </div>
+                            </div>
+
+
+                            <div class="col mrb-8px l-2-4 m-2-4 c-6 ">
+                                <a class="content__item-manga" href="">
+                                    <div class="content__img" style="background-image: url('./assets/img/hero.jpeg')">
+                                    </div>
+
+                                    <div class="content__manga__info">
+                                        <p class="content__name__manga">Nisekoi: False Love</p>
+                                        <p class="content__author__manga">Naoshi Komi</p>
+                                    </div>
+                                </a>
+                                <div class="content__chap-detail">
+                                    <div class="chap__lasted">
+                                        <p class="new-chap">#121</p>
+                                        <p class="stauts__chap">today</p>
+                                    </div>
+                                    <p class="name__chap">chapter 121: Little brother</p>
+                                </div>
+                            </div>
+
+                            <div class="col mrb-8px l-2-4 m-2-4 c-6 ">
+                                <a class="content__item-manga" href="">
+                                    <div class="content__img" style="background-image: url('./assets/img/samurai.jpeg')">
+                                    </div>
+
+                                    <div class="content__manga__info">
+                                        <p class="content__name__manga">Nisekoi: False Love</p>
+                                        <p class="content__author__manga">Naoshi Komi</p>
+                                    </div>
+                                </a>
+                                <div class="content__chap-detail">
+                                    <div class="chap__lasted">
+                                        <p class="new-chap">#121</p>
+                                        <p class="stauts__chap">today</p>
+                                    </div>
+                                    <p class="name__chap">chapter 121: Little brother</p>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+                    <div class="category__manga">
+                        <h1 class="category__manga-title">WEEKLY SHONEN JUMP</h1>
+                        <div class="category__list-horizontal">
+                            <div class="category__item-horizontal">
+                                <img class="category__img-horizontal" src="./assets/img/onepiece.jpeg" alt="">
+                            </div>
+                            <div class="category__item-horizontal">
+                                <img class="category__img-horizontal" src="./assets/img/onepiece.jpeg" alt="">
+                            </div>
+                            <div class="category__item-horizontal">
+                                <img class="category__img-horizontal" src="./assets/img/onepiece.jpeg" alt="">
+                            </div>
+                            <div class="category__item-horizontal">
+                                <img class="category__img-horizontal" src="./assets/img/onepiece.jpeg" alt="">
+                            </div>
+                            <div class="category__item-horizontal">
+                                <img class="category__img-horizontal" src="./assets/img/onepiece.jpeg" alt="">
+                            </div>
+                            <div class="category__item-horizontal">
+                                <img class="category__img-horizontal" src="./assets/img/onepiece.jpeg" alt="">
+                            </div>
+                            <div class="category__item-horizontal">
+                                <img class="category__img-horizontal" src="./assets/img/onepiece.jpeg" alt="">
+                            </div>
+                            <div class="category__item-horizontal">
+                                <img class="category__img-horizontal" src="./assets/img/onepiece.jpeg" alt="">
+                            </div>
+                            <div class="category__item-horizontal">
+                                <img class="category__img-horizontal" src="./assets/img/onepiece.jpeg" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="category__manga">
+                        <h1 class="category__manga-title">Adventure SHONEN</h1>
+                        <div class="category__list-horizontal">
+                            <div class="category__item-horizontal">
+                                <img class="category__img-horizontal" src="./assets/img/Jujutsu.jpeg" alt="">
+                            </div>
+                            <div class="category__item-horizontal">
+                                <img class="category__img-horizontal" src="./assets/img/Jujutsu.jpeg" alt="">
+                            </div>
+                            <div class="category__item-horizontal">
+                                <img class="category__img-horizontal" src="./assets/img/Jujutsu.jpeg" alt="">
+                            </div>
+                            <div class="category__item-horizontal">
+                                <img class="category__img-horizontal" src="./assets/img/Jujutsu.jpeg" alt="">
+                            </div>
+                            <div class="category__item-horizontal">
+                                <img class="category__img-horizontal" src="./assets/img/Jujutsu.jpeg" alt="">
+                            </div>
+                            <div class="category__item-horizontal">
+                                <img class="category__img-horizontal" src="./assets/img/Jujutsu.jpeg" alt="">
+                            </div>
+                            <div class="category__item-horizontal">
+                                <img class="category__img-horizontal" src="./assets/img/Jujutsu.jpeg" alt="">
+                            </div>
+                            <div class="category__item-horizontal">
+                                <img class="category__img-horizontal" src="./assets/img/Jujutsu.jpeg" alt="">
+                            </div>
+                            <div class="category__item-horizontal">
+                                <img class="category__img-horizontal" src="./assets/img/Jujutsu.jpeg" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="category__manga">
+                        <h1 class="category__manga-title">other</h1>
+                        <div class="category__list-horizontal">
+                            <div class="category__item-horizontal">
+                                <img class="category__img-horizontal" src="./assets/img/samurai.jpeg" alt="">
+                            </div>
+                            <div class="category__item-horizontal">
+                                <img class="category__img-horizontal" src="./assets/img/samurai.jpeg" alt="">
+                            </div>
+                            <div class="category__item-horizontal">
+                                <img class="category__img-horizontal" src="./assets/img/samurai.jpeg" alt="">
+                            </div>
+                            <div class="category__item-horizontal">
+                                <img class="category__img-horizontal" src="./assets/img/samurai.jpeg" alt="">
+                            </div>
+                            <div class="category__item-horizontal">
+                                <img class="category__img-horizontal" src="./assets/img/samurai.jpeg" alt="">
+                            </div>
+                            <div class="category__item-horizontal">
+                                <img class="category__img-horizontal" src="./assets/img/samurai.jpeg" alt="">
+                            </div>
+                            <div class="category__item-horizontal">
+                                <img class="category__img-horizontal" src="./assets/img/samurai.jpeg" alt="">
+                            </div>
+                            <div class="category__item-horizontal">
+                                <img class="category__img-horizontal" src="./assets/img/samurai.jpeg" alt="">
+                            </div>
+                            <div class="category__item-horizontal">
+                                <img class="category__img-horizontal" src="./assets/img/samurai.jpeg" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-2">
+                    <div class="content__nav-manga">
+                        <div class="content__nav-social">
+                            <a href="">Discord
+                                <i class="fab fa-discord"></i>
+                            </a>
+                            <a href="">Facebook
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                        </div>
+                        <div class="content__nav-top-manga">
+                            <div class="header__top-manga">
+                                <h1 class="content__hottest">
+                                    <i class="fas fa-fire-alt"></i> Hottest
+                                </h1>
+                            </div>
+                            <div class="content__top-list">
+                                <a href="">
+
+                                    <div class="content__ranking-item">
+                                        <img class="content__ranking-img" src="./assets/img/onepiece.jpeg" alt="">
+                                        <div class="content__ranking-info">
+                                            <p class="content__ranking-name"> One Piece</p>
+                                            <p class="content__ranking-author"> Eiichiro Oda</p>
+                                            <p class="content__ranking-view">
+                                                <i class="fas fa-fire-alt"></i> 715,427
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="">
+
+                                    <div class="content__ranking-item">
+                                        <img class="content__ranking-img" src="./assets/img/onepiece.jpeg" alt="">
+                                        <div class="content__ranking-info">
+                                            <p class="content__ranking-name"> One Piece</p>
+                                            <p class="content__ranking-author"> Eiichiro Oda</p>
+                                            <p class="content__ranking-view">
+                                                <i class="fas fa-fire-alt"></i> 715,427
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="">
+
+                                    <div class="content__ranking-item">
+                                        <img class="content__ranking-img" src="./assets/img/onepiece.jpeg" alt="">
+                                        <div class="content__ranking-info">
+                                            <p class="content__ranking-name"> One Piece</p>
+                                            <p class="content__ranking-author"> Eiichiro Oda</p>
+                                            <p class="content__ranking-view">
+                                                <i class="fas fa-fire-alt"></i> 715,427
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="">
+
+                                    <div class="content__ranking-item">
+                                        <img class="content__ranking-img" src="./assets/img/onepiece.jpeg" alt="">
+                                        <div class="content__ranking-info">
+                                            <p class="content__ranking-name"> One Piece</p>
+                                            <p class="content__ranking-author"> Eiichiro Oda</p>
+                                            <p class="content__ranking-view">
+                                                <i class="fas fa-fire-alt"></i> 715,427
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="">
+
+                                    <div class="content__ranking-item">
+                                        <img class="content__ranking-img" src="./assets/img/onepiece.jpeg" alt="">
+                                        <div class="content__ranking-info">
+                                            <p class="content__ranking-name"> One Piece</p>
+                                            <p class="content__ranking-author"> Eiichiro Oda</p>
+                                            <p class="content__ranking-view">
+                                                <i class="fas fa-fire-alt"></i> 715,427
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+
+
+
+
+
+
+
+                            </div>
+                            <a href="" class="content__nav-view-all">
+                                View all
+                                <i class="icon-nav fas fa-chevron-right"></i>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <div class="section__footer">
+        <footer class="footer">
+            <div class="grid wide">
+                <div class="row pull-center">
+                    <div class="footer__copyright">
+                        <img class="footer__img" src="./assets/img/web_logo_190118_light.c773f9e9.png" alt="">
+                        <p class="copyright">
+                            ©︎2020 Phạm Đức Trung Inc.
+                            <span>All rights reserved</span>
+                        </p>
+                    </div>
+                    <div class="footer__detail">
+                        <div class="footer__nav">
+                            <ul class="footer__list">
+                                <li class="footer__item">
+                                    <a href="">Help / FAQs</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="">News and Events</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="">Feedback</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="">Privacy Policy</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="">Terms of Services</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="">Copyrights</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__nav-section-2">
+                            <img src="./assets/img/abj1092_1042.6c597180.png" width='72px' height="60px" alt="">
+                            <p>ABJ Mark is a registered trademark (Registration No.10921042) Indicating that this e-book store / e-book distribution service is an authorized distribution service that gained permission to use content from the copyright holder.
+                                For more information check </p>
+                        </div>
+
+                    </div>
+                    <div class="footer__nav-download">
+                        <img class="icon-logo" src="./assets/img/app_icon.919a13c7.png" width="80px" height="80px" alt="" alt="">
+                        <div class="icon-download">
+                            <p>Download the app and read it anytime!</p>
+                            <div class="nav-download">
+                                <a href="">
+                                    <img class="icon-appstore" src="./assets/img/aivalable-on-the-app-store-2.svg" width="120px" height="40px" alt="">
+                                </a>
+                                <a href="">
+                                    <img class="icon-appstore" src="./assets/img/google-2.svg" width="120px" height="40px" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
